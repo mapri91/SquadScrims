@@ -17,5 +17,3 @@ What features are planned or under development?
 - Filter function in the match browser (e.g. filter for specific map or match date)
 - Thread creation within the match lobbys (so each side of the match has an internal chat)
 - Role system within the match lobbys (give a specific role to each side of the match, check for player numbers)
-
-Added this new line
