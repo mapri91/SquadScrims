@@ -248,13 +248,11 @@ class MyClient(discord.Client):
             role_events = discord.utils.get(
                 message.author.guild.roles, name="Events")
             roles_author = message.author.roles
-            check = any(item in role_events for item in roles_author)
-            if check == True:
+            if role_events in roles_author:
                 usr_match = message.content.removeprefix('!event ')
                 match_name = usr_match.split(",")[0]
                 match_name = match_name.lstrip()
                 match_name = match_name.rstrip()
-                match_name = match_name.capitalize()
                 match_date = usr_match.split(",")[1]
                 match_date = match_date.lstrip()
                 match_date = match_date.rstrip()
