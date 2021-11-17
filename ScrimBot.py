@@ -182,7 +182,7 @@ class MyClient(discord.Client):
                 embed_match_info.add_field(
                     name="**Map**", value=match_map, inline=False)
                 embed_match_info.add_field(
-                    name="**Coalitions**", value=match_mixed, inline=False)
+                    name="**Mixed teams**", value=match_mixed, inline=False)
                 embed_match_info.add_field(
                     name="**Server available**", value=server_info, inline=False)
                 sent_message = await dest_channel.send(embed=embed_match_info)
@@ -219,7 +219,7 @@ class MyClient(discord.Client):
                 embed_match_lobby_info.add_field(
                     name="**Map**", value=match_map, inline=False)
                 embed_match_lobby_info.add_field(
-                    name="**Coalitions**", value=match_mixed, inline=False)
+                    name="**Mixed teams**", value=match_mixed, inline=False)
                 embed_match_lobby_info.add_field(
                     name="**Server available**", value=server_info, inline=False)
                 await match_channel.send(embed=embed_match_lobby_info)
@@ -298,7 +298,7 @@ class MyClient(discord.Client):
                 embed_match_info.add_field(
                     name="**Nr. of teams**", value=match_map, inline=False)
                 embed_match_info.add_field(
-                    name="**Coalitions**", value=match_mixed, inline=False)
+                    name="**Mixed teams**", value=match_mixed, inline=False)
                 embed_match_info.add_field(
                     name="**Servers available**", value=server_info, inline=False)
                 sent_message = await dest_channel.send(embed=embed_match_info)
@@ -338,7 +338,7 @@ class MyClient(discord.Client):
                 embed_match_lobby_info.add_field(
                     name="**Map**", value=match_map, inline=False)
                 embed_match_lobby_info.add_field(
-                    name="**Coalitions**", value=match_mixed, inline=False)
+                    name="**Mixed teams**", value=match_mixed, inline=False)
                 embed_match_lobby_info.add_field(
                     name="**Server available**", value=server_info, inline=False)
                 await match_channel.send(embed=embed_match_lobby_info)
