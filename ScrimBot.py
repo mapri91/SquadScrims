@@ -122,7 +122,7 @@ class MyClient(discord.Client):
                 message.guild.roles, name="New Clan-Rep")
             await message.author.add_roles(role_clanrep)
             await message.author.remove_roles(role_new_rep)
-            await message.author.edit(nick=clan_tag + " " + ingame_nick)
+            await message.author.edit(nick=clan_tag + "  " + ingame_nick)
             embed_user_info = discord.Embed(title="Successfully added you as clan-rep for " + clan_tag,
                                             colour=discord.Colour(0xeaff00),
                                             description="Your have been added as a clan-rep. The role has been applied to "
